@@ -1,7 +1,6 @@
 import React from 'react';
 import Element from "../Element/Element";
 
-// noinspection JSValidateTypes
 class Button extends React.Component {
 
   constructor(props) {
@@ -16,10 +15,7 @@ class Button extends React.Component {
     alert('Component is Hidden')
   }
 
-  componentDidMount() {
-    console.log('component Did Mount')
-
-
+  componentDidMount() {    
     const url = 'https://jsonplaceholder.typicode.com/todos/'
     fetch(url)
       .then(res => res.json())
