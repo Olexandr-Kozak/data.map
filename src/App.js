@@ -6,6 +6,7 @@ function App() {
   return(
     <div>
       <HiddenBtn/>
+    <p> Hello im here is </p>
     </div>
   )
 
